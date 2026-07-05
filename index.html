@@ -1,19 +1,80 @@
 <!DOCTYPE html>
 <html lang="tr">
-<head><meta charset="UTF-8"><title>Dien İSG Gizlilik Politikası</title></head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İSG Takip - Gizlilik Politikası</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; color: #333; }
+        h1 { color: #0F172A; border-bottom: 2px solid #3B82F6; padding-bottom: 10px; }
+        h2 { color: #1E293B; margin-top: 30px; }
+        .date { color: #64748B; font-size: 14px; }
+        .contact { background: #F1F5F9; padding: 15px; border-radius: 8px; margin-top: 20px; }
+    </style>
+</head>
 <body>
-<h1>Gizlilik Politikası</h1>
-<p>Son güncelleme: Mayıs 2026</p>
-<p>İSG Takip uygulaması kullanıcı verilerini yalnızca uygulama işlevselliği için kullanır, üçüncü taraflarla paylaşmaz.</p>
-<h2>Ses Kaydı (RECORD_AUDIO)</h2>
-<p>Yalnızca ziyaret notu dikte özelliği için kullanılır. Ses kayıtları cihazda saklanır, sunucuya gönderilmez.</p>
-<h2>Kamera ve Galeri</h2>
-<p>Belge ve fotoğraf ekleme için kullanılır.</p>
-<h2>Bildirimler</h2>
-<p>İSG kontrol hatırlatmaları için kullanılır.</p>
-<h2>Konum</h2>
-<p>Ziyaret raporu için opsiyonel kullanılır.</p>
-<h2>İletişim</h2>
-<p>isgtakipapp@gmail.com</p>
+    <h1>İSG Takip - Gizlilik Politikası</h1>
+    <p class="date">Son güncelleme: 24 Mayıs 2026</p>
+
+    <p>İSG Takip olarak kullanıcılarımızın gizliliğine önem veriyoruz. Bu politika, İSG Takip uygulamasının veri toplama ve kullanma pratiklerini açıklar.</p>
+
+    <h2>1. Toplanan Veriler</h2>
+    <p>İSG Takip uygulaması <strong>hiçbir kişisel veriyi kendi sunucularına göndermez</strong>. Kalıcı veriler yalnızca cihazınızda saklanır.</p>
+    <p><strong>Cihazda kalıcı olarak saklanan veriler:</strong></p>
+    <ul>
+        <li><strong>Firma bilgileri:</strong> Firma adı, tehlike sınıfı, sektör, adres bilgisi</li>
+        <li><strong>Personel bilgileri:</strong> Personel ad ve soyadları</li>
+        <li><strong>Periyodik kontrol kayıtları:</strong> Kontrol tarihleri, sonraki tarihler, notlar, ölçüm değerleri</li>
+        <li><strong>Fotoğraflar:</strong> Kayıtlara ve ziyaret notlarına eklenen fotoğraflar</li>
+        <li><strong>Konum verisi:</strong> Firma adresi tespiti için GPS konumu — yalnızca kullanıcı izin verdiğinde alınır</li>
+    </ul>
+    <p><strong>Yalnızca PDF üretimi sırasında geçici olarak işlenen veriler</strong> (cihaza kaydedilmez, form kapatıldığında bellekten silinir):</p>
+    <ul>
+        <li>TC Kimlik numarası, doğum tarihi, telefon numarası, sicil numarası, meslek bilgisi</li>
+        <li><strong>Sağlık verileri (hassas veri):</strong> Boy, kilo, tansiyon, nabız, kan grubu, alerjiler, aile sağlık geçmişi — yalnızca işe giriş sağlık raporu (Ek-2) formunda kullanılır</li>
+    </ul>
+
+    <h2>2. Google Hesabı ve Drive Yedekleme</h2>
+    <p>Uygulama, isteğe bağlı olarak Google Drive üzerinden yedekleme özelliği sunar. Bu özelliği kullanmayı tercih ederseniz:</p>
+    <ul>
+        <li>Google hesabınızla oturum açarsınız.</li>
+        <li>Verileriniz <strong>yalnızca kendi Google Drive hesabınıza</strong> yedeklenir.</li>
+        <li>İSG Takip geliştiricisi bu verilere erişemez, okuyamaz veya işleyemez.</li>
+        <li>Google Drive yedeklemesini istediğiniz zaman devre dışı bırakabilirsiniz.</li>
+    </ul>
+
+    <h2>3. Bildirimler</h2>
+    <p>Uygulama, periyodik kontrol hatırlatmaları için yerel bildirimler gönderir. Bu bildirimler tamamen cihazınızda oluşturulur ve herhangi bir sunucuya iletilmez.</p>
+
+    <h2>4. Üçüncü Taraf Hizmetleri</h2>
+    <p>Uygulama aşağıdaki üçüncü taraf hizmetlerini kullanır:</p>
+    <ul>
+        <li><strong>Google Sign-In:</strong> Yalnızca Google Drive yedekleme erişimi için kullanılır.</li>
+        <li><strong>Google Drive API:</strong> Yalnızca kullanıcının kendi hesabına yedekleme yapmak için kullanılır.</li>
+        <li><strong>RevenueCat:</strong> Abonelik yönetimi için kullanılır. Yalnızca anonim cihaz kimliği paylaşılır; kişisel veri aktarılmaz.</li>
+    </ul>
+    <p>Bunlar dışında hiçbir üçüncü taraf analitik, reklam veya izleme hizmeti kullanılmamaktadır.</p>
+
+    <h2>5. Veri Güvenliği</h2>
+    <ul>
+        <li>Tüm veriler cihazın yerel depolama alanında saklanır ve cihazın kendi güvenlik mekanizmalarıyla korunur.</li>
+        <li>Google Drive yedeklemeleri HTTPS üzerinden güvenli şekilde iletilir.</li>
+        <li>Kişisel veriler pazarlama, reklam veya profilleme amacıyla üçüncü taraflarla paylaşılmaz.</li>
+    </ul>
+
+    <h2>6. Veri Silme</h2>
+    <p>Uygulamayı cihazınızdan kaldırdığınızda tüm yerel veriler silinir. Google Drive'daki yedekleri manuel olarak silmeniz gerekmektedir.</p>
+
+    <h2>7. Çocukların Gizliliği</h2>
+    <p>İSG Takip, 13 yaşın altındaki çocuklara yönelik değildir ve bilerek çocuklardan kişisel bilgi toplamaz.</p>
+
+    <h2>8. Değişiklikler</h2>
+    <p>Bu gizlilik politikası zaman zaman güncellenebilir. Değişiklikler bu sayfada yayınlanır.</p>
+
+    <div class="contact">
+        <h2 style="margin-top: 0;">9. İletişim</h2>
+        <p>Gizlilik politikamız hakkında sorularınız için:</p>
+        <p><strong>E-posta:</strong> isgtakipapp@gmail.com</p>
+    </div>
 </body>
 </html>
